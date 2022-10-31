@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,intial-scale=1.0">
+        <title>fine</title>
+        <link rel="stylesheet" href="chat.css">
+        <script src="chatbo.js"></script>
+    </head>
+    <body>
+        <div class="box">
+            <div style="text-align:center;" class="top">
+            <h1>Send a message</h1>
+            </div>
+            <div class="mid">
+                <div class="chat">
+                    <h2>Answers are below</h2>
+                    <p id="chatLog">let's chat</p>
+                </div>
+            </div>
+            <div class="input">
+                <input type="text" id="userBox"onkeydown="if(event.keyCode ==13){talk()}" placeholder="type a message">
+            </div>
+        </div>
+    </body>
+</html>
